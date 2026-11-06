@@ -3,10 +3,18 @@ using namespace std;
 
 int main()
 {
-    char x[5] = "UKRI";
+    char nama[15], kelas[20], hobby[15];
 
-    puts("Anda kuliah di ");
-    puts(x);
+    printf("\tBiodata Saya\n\n");
+
+    printf("Nama : ");
+    scanf("%s", nama);
+
+    printf("Kelas : ");
+    scanf("%s", kelas);
+
+    printf("Hobby : ");
+    scanf("%s", hobby);
 
     return 0;
 }
